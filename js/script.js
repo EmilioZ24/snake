@@ -19,7 +19,7 @@ function main(currentTime) {
     // console.log
 }
 
-window.requestAnimationFrame(main)
+window.requestAnimationFrame(main);
 
 // update the snake and food
 function update() {
@@ -27,6 +27,8 @@ function update() {
 }
 
 // draw/render the snake and food
-function draw() {
-    drawSnake(gameBoard)
+function draw() 
+{
+    gameBoard.innerHTML='';
+    drawSnake(gameBoard);
 }
