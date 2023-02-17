@@ -27,4 +27,9 @@ export function draw(gameBoard)
         gameBoard.appendChild(snakeElement)
     })
 
+    export function onSnake(amount) {
+
+
+    }
+
 }
