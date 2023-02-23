@@ -8,6 +8,7 @@ export function update() {
   if (onSnake(food)) {
     expandSnake(EXPANSION_RATE)
     food = getRandomFoodPosition()
+    updateFoodCount()
   }
 }
 
@@ -25,4 +26,9 @@ function getRandomFoodPosition() {
     newFoodPosition = randomGridPosition()
   }
   return newFoodPosition
+}
+
+function updateFoodCount() {
+
+
 }
