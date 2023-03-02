@@ -30,9 +30,7 @@ function getRandomFoodPosition() {
 }
 
 function updateFoodCount() {
-score++;
-highScore= score >= highScore ? score : highscore;
-localStorage.setItem("high-score", highScore);
-
-
+    ++score;
+    document.getElementById("screen").innerHTML ='Score:' +score;
+    return true;
 }

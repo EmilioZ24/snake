@@ -7,6 +7,18 @@ body {
     margin:0;
 }
 
+#screen{
+    height:25vh;
+    width:10vw;
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+    margin:0;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: aquamarine;
+}
+
 #game-board {
     background-color: #46f51bf5;
     width: 100vmin;
